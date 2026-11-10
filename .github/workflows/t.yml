@@ -1,0 +1,6 @@
+name: t
+on: workflow_dispatch
+jobs:/n  u:/n    runs-on: ubuntu-latest
+    steps:/n      - run: uname -a
+  m:/n    runs-on: macos-14
+    steps:/n      - run: sw_vers
